@@ -1,0 +1,1018 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+    font-family: "GT-Eesti";
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+a{
+    text-decoration: none;
+    color: black;
+
+}
+a:hover{
+    opacity: .9;
+
+}
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'GT-Eesti';
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff2") format("woff2");
+    src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"), url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal
+}
+ul,ol{
+    list-style: none;
+}
+section.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
+header{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    background-color: #f8f8f8;
+    position: fixed;
+    width: 100%;
+
+
+}
+header section.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+header div.left{
+    width: 20%;
+    align-items: center;
+    display: flex;
+    justify-content: start;
+
+}
+header div.left h1{
+    width: 100%;
+    font-size: 56px;
+    font-weight: 700;
+
+}
+header div.left h1 a {
+    display: block;
+
+
+}
+header div.right{
+    align-items: center;
+    width: 50%;
+    display: flex;
+
+
+
+}
+header div.right ul{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+header div.right ul li{
+
+}
+header div.right ul li a{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #777;}
+header div.right ul li a:hover{
+    color: black;
+    font-size: 20.5px;
+}
+section#spotlight{
+    height: calc(100vh);
+    background-color: #f8f8f8;
+    padding: 120px 0 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+
+
+
+}
+section#spotlight section.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+section#spotlight div.left{
+    align-items: center;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    
+}
+section#spotlight div.left div.name{
+    align-items: center;
+
+    
+}
+section#spotlight div.left div.name div.title{
+    
+}
+section#spotlight div.left div.name div.title h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #31417d;
+    
+}
+section#spotlight div.left div.name div.title h2{
+    font-size: 28px;
+    font-weight: 700;
+    color: #777;
+    margin-bottom: 10px;
+    font-weight: 700;
+     
+}
+section#spotlight div.left div.name div.social{
+    margin-top: 40px;
+    
+}
+section#spotlight div.left div.name div.social ul{
+    display: flex;
+    
+}
+section#spotlight div.left div.name div.social ul li{
+    margin-right: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    
+}
+section#spotlight div.left div.name div.social ul li a{
+    width: 90%;
+    height: 90%;
+    display: block;
+    
+}
+section#spotlight div.left div.name div.social ul li a:hover{
+    width: 98%;
+    height: 98%;
+    display: block;
+    opacity: .7;
+    
+}
+section#spotlight div.left div.name div.social ul li a img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+}
+section#spotlight div.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    
+}
+section#spotlight div.right div.image_container{
+    border-radius: 50%;
+    background-color: rgb(241, 241, 61);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+section#spotlight div.right div.image_container img{
+    width: 85%;
+    height: 100%;
+    display: block;
+    
+}
+#skills{
+    padding: 60px 0;
+
+}
+#skills section.wrapper{
+    
+}
+
+#skills section.wrapper div.top{
+    
+    
+}
+#skills div.top h1{
+    font-size: 45px;
+    font-weight: 600;
+     
+}
+#skills section.wrapper div.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+
+    
+}
+#skills section.wrapper div.item h2{
+    color: #777; 
+    margin: 50px 0;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+#skills section.wrapper div.item p{
+    color: #777;
+    line-height: 1.7em;
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+
+}
+#skills section.wrapper div.item ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#skills section.wrapper div.item ul li{
+    width: 15%;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#skills section.wrapper div.item ul li img {
+    display: block;
+    width: 65%;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    
+}
+#skills section.wrapper div.item ul li h3 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+section#projects{
+    padding: 80px 0;
+    background-color: #f8f8f8;
+
+
+    
+}
+section#projects section.wrapper{
+   
+}
+section#projects div.top{
+    
+}
+section#projects div.top h1{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+section#projects div.item{
+    display: flex;
+    margin-top: 50px
+
+}
+section#projects div.left{
+    width: 50%;
+    
+}
+
+section#projects div.details{
+    
+}
+section#projects div.details h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    
+}
+section#projects div.details p{
+    color: #777;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: bold;
+    
+}
+section#projects div.details ul{
+    list-style: circle;
+    
+}
+section#projects div.details ul li{
+    margin: 20px;
+    color: #777;
+    font-size: 18px;
+    font-weight: bold;
+
+    
+}
+section#projects div.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+section#projects div.link div.button_container{
+    margin-top: 30px;
+}
+section#projects div.link div.button_container a.button{
+    padding: 14px 50px;
+    margin-top: 20px;
+    background-color: #0055fb;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    text-align: center;
+    
+}
+section#projects div.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    
+}
+section#projects div.right div.image_container{
+    width:95%;
+    height: 400px;
+    
+}
+section#projects div.right div.image_container img{
+    width: 100%;
+    display: block;
+    height: 100%;
+}
+section#contact{
+    padding: 70px 0;
+    background-color: #e2e2e2;
+
+}
+section#contact section.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+section#contact div.top{
+    margin: 30px 0;
+
+
+
+}
+section#contact div.top h2{
+    font-weight: 600;
+    font-size: 38px;
+
+
+}
+section#contact form{
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+section#contact form div.input{
+    margin-bottom: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+section#contact form div.input input{
+    width: 80%;
+    padding: 12px 16px;
+    background: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    font-weight: 400;
+
+}
+section#contact form div.input_area {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+section#contact form div.input_area textarea{
+    width: 95%;
+    padding: 12px 16px;
+    background: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    font-weight: 400;;
+
+
+
+
+    
+}
+section#contact form div.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px 0; 
+
+    
+}
+
+section#contact form div.submit input.submit_button{
+    background: #0055fb;
+    padding: 17px 25px;
+    color: #fff;
+    width: 80%;
+    font-weight: 700;
+    display: block;
+    margin-top: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 1px solid #0055fb;
+    
+}
+section#about{
+    padding: 60px 0;
+
+}
+section#about section.wrapper{
+    
+}
+section#about div.top{
+    margin-bottom: 50px;
+    
+}
+section#about div.top h1{
+    font-weight: 700;
+    font-size: 46px;
+    
+}
+section#about div.middle{
+    
+}
+section#about div.middle p{
+    font-size: 22px;
+    margin-bottom: 30px;
+    line-height: 1.7em;
+    font-weight: bold;
+    color: #444444;
+    
+}
+section#about div.middle p b{
+    font-size: 24px;
+    color: #000;
+
+    
+}
+section#about div.certificates{
+    background-color: #f8f8f8;
+    margin: 20px 0 0;
+    padding: 30px;
+    
+}
+section#about div.certificates h1{
+    font-size: 40px;
+    font-weight: 600;
+
+    
+}
+section#about div.certificates div.cert_container{
+    display: flex;
+    justify-content: space-between;flex-wrap: wrap;
+}
+section#about div.certificates div.item{
+    width: 40%;
+    margin-top: 30px;
+    background-color: #e2e2e2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0;
+    border-radius: 12px;
+
+    
+}
+section#about div.certificates div.item:hover{
+    background-color: #c9c8c8;
+
+    
+}
+section#about div.certificates div.item h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #777;
+    text-align: center;
+
+    
+}
+section#about div.certificates div.item a{
+    display: inline-block;
+    padding: 16px 20px;
+    color: #0055fb;
+    border-radius: 25px;
+    text-decoration: underline;
+    font-size:25px;
+    font-weight: 600;
+
+    
+}
+@media all and (max-width:1280px){
+    section#projects div.left {
+        width: 60%;
+    }
+    section#projects div.right {
+        width: 40%;
+        justify-content: baseline;
+        align-items:flex-start ;
+        margin-top: 30px;
+
+
+    }
+    section#projects div.right div.image_container {
+        width: 95%;
+        height: 310px;
+    }
+    section#contact form {
+        width: 60%;
+    }
+
+}
+@media all and (max-width:1080px){
+    header div.left h1 {
+        font-size: 52px;
+    }
+    header div.left {
+        width: 25%;
+    }
+    header div.right {
+        width: 57%;
+    }
+    section#spotlight div.left div.name div.title h1 {
+        font-size: 45px;
+    }
+    section#spotlight div.left div.name div.title h2.designation {
+        font-size: 20px;
+    }
+    section#spotlight div.left {
+        width: 60%;
+    }
+    section#spotlight div.right {
+        width: 40%;
+    }
+    section#spotlight div.right div.image_container {
+        width: 350px;
+        height: 350px;
+    }
+    section#about div.middle p {
+        font-size: 17px;
+        line-height: 1.8em;
+    }
+    section#about div.middle p b {
+        font-size: 20px;
+    }
+    section#about div.certificates div.item {
+        width: 45%;
+        padding: 20px 25px;    
+    }
+    section#about div.certificates div.item h1 {
+        font-size: 25px;
+    }
+    #skills {
+        padding: 30px 0;
+    }
+    #skills section.wrapper div.item p {
+        width: 100%;
+    }
+    #skills section.wrapper div.item ul li {
+        width: 20%;
+    }
+    section#projects {
+        padding: 40px 0;
+    }
+    section#projects div.right div.image_container {
+        width: 90%;
+        height: 233px;
+    }
+    section#contact form {
+        width: 65%;
+    }
+
+}
+@media all and (max-width:980px){
+    header div.left h1 {
+        font-size: 40px;
+    }
+    header div.right {
+        width: 60%;
+    }
+    header div.right ul li a {
+        font-size: 15px;
+    }
+    section#spotlight div.left div.name div.title h1 {
+        font-size: 38px;
+    }
+    section#spotlight div.left div.name div.title h2 {
+        font-size: 26px;
+    }
+    section#spotlight div.left div.name div.title h2.designation {
+        font-size: 18px;
+    }
+    section#spotlight div.right div.image_container {
+        width: 263px;
+        height: 263px;
+    }
+    section#spotlight div.left div.name div.social ul li {
+        width: 30px;
+        height: 30px;
+    }
+    section#about {
+        padding: 30px 0;
+    }
+    section#about div.top h1 {
+        font-size: 35px;
+    }
+    section#about div.middle p b {
+        font-size: 17px;
+    }
+    section#about div.middle p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    section#about div.certificates h1 {
+        font-size: 35px;
+    }
+    section#about div.certificates div.item h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+    section#about div.certificates div.item a {
+        font-size: 20px;
+    }
+    #skills div.top h1 {
+        font-size: 35px;
+
+    }
+    #skills section.wrapper div.item h2 {
+        margin: 15px 0 30px;
+        font-size: 25px;
+    }
+    #skills section.wrapper div.item p {
+        font-size: 17px;
+    }
+    #skills section.wrapper div.item ul li img {
+        width: 70%;
+        height: 84px;
+        margin-bottom: 20px;
+
+    }
+    #skills section.wrapper div.item ul li h3 {
+        font-size: 14px;    
+    }
+    section#projects div.top h1 {
+        font-size: 35px;
+    }
+    section#projects div.details h2 {
+        font-size: 17px;
+    }
+    section#projects div.details p {
+        font-size: 16px;
+        line-height: 1.7em;
+    }
+    section#projects div.details ul li {
+        font-size: 16px;
+    }
+    section#projects div.link div.button_container a.button {
+        margin-top: 0;
+        color: #0055fb;
+        font-size: 14px;
+        font-weight: bold;
+        display: inline-block;
+        text-decoration: underline;
+        background-color: #fff;
+    }
+    section#contact form {
+        width: 80%;
+    }
+    section#contact div.top h2 {
+        font-size: 30px;
+    }
+    section#contact form div.input input {
+        width: 80%;
+        padding: 10px 15px;
+        font-size: 11px;
+    }
+    section#contact form div.submit input.submit_button {
+        padding: 10px 0px;
+        width: 64%;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+}
+@media all and (max-width:768px){
+    header div.left h1 {
+        font-size: 30px;
+    }
+    header div.right {
+        width: 65%;
+    }
+    header div.right ul li a {
+        font-size: 12px;
+    }
+    section#spotlight div.left div.name div.title h1 {
+        font-size: 30px;
+    }
+    section#spotlight div.left div.name div.title h2 {
+        font-size: 21px;
+    }
+    section#spotlight div.left div.name div.title h2.designation {
+        font-size: 13px;
+    }
+    section#spotlight div.left div.name div.social ul li {
+        width: 20px;
+        height: 20px;
+    }
+    section#spotlight div.right div.image_container {
+        width: 240px;
+        height: 240px;
+    }
+    section#about div.top {
+        margin-bottom: 25px;
+    }
+    section#about div.top h1 {
+        font-size: 30px;
+    }
+    section#about div.middle p b {
+        font-size: 15px;
+    }
+    section#about div.middle p {
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    section#about div.certificates h1 {
+        font-size: 30px;
+    }
+    section#about div.certificates div.item h1 {
+        font-size: 18px;
+    }
+    section#about div.certificates div.item a {
+        font-size: 15px;
+    }
+    #skills {
+        padding: 20px 0 0px;
+    }
+    #skills div.top h1 {
+        font-size: 30px;
+    }
+    #skills section.wrapper div.item ul li img {
+        height: 70px;
+    }
+    section#projects div.top h1 {
+        font-size: 30px;
+    }
+    section#projects div.item {
+        margin-top: 30px;
+    }
+    section#projects div.right div.image_container {
+        height: 190px;
+    }
+    section#projects div.details h2 {
+        font-size: 15px;
+    }
+    section#projects div.details p {
+        font-size: 15px;
+    }
+    section#projects div.details ul li {
+        font-size: 15px;
+        margin: 10px;
+    }
+    section#projects div.link div.button_container {
+        margin-top: 20px;
+    }
+    section#projects div.link div.button_container a.button {
+        padding: 10px 25px;
+    }
+    section#contact form {
+        width: 90%;
+    }
+
+}
+@media all and (max-width:640px){
+    header section.wrapper {
+        flex-direction: column;
+    }
+    header div.left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    header div.right {
+        width: 100%;
+    }
+    section#spotlight {
+    padding: 140px 0 0;    }
+    section#spotlight section.wrapper {
+        flex-direction: column-reverse;
+    }
+    section#spotlight div.right {
+        width: 60%;
+    }
+    section#spotlight div.left {
+        width: 100%;
+    }
+    section#spotlight div.left div.name {
+        width: 100%;
+    }
+    section#spotlight div.left div.name div.title h2.designation {
+        font-size: 15px;
+    }
+    section#spotlight div.left div.name div.social ul li {
+        width: 25px;
+        height: 25px;
+    }
+    section#about div.certificates div.item {
+        width: 100%;
+        padding: 20px 25px;
+    }
+    #skills section.wrapper div.item p {
+        font-size: 15px;
+    }
+    #skills section.wrapper div.item ul li img {
+        height: 50px;
+    }
+    #skills section.wrapper div.item ul li {
+        width: 25%;
+        margin-bottom: 30px;
+    }
+    section#projects {
+        padding: 28px 0;
+    }
+    section#projects div.item {
+        flex-direction: column;    
+    }
+    section#projects div.left {
+        width: 100%;
+    }
+    section#projects div.right {
+        width: 100%;
+    }
+    section#contact {
+        padding: 35px 0;
+    }
+    section#contact form {
+        width: 95%;
+    }
+}
+
+@media all and (max-width:480px){
+    section#spotlight {
+        padding: 150px 0 30px;
+    }
+    section#spotlight div.right {
+        width: 75%;
+    }
+    section#spotlight div.left div.name div.title h1 {
+        font-size: 26px;
+    }
+    section#spotlight div.left div.name div.title h2 {
+        font-size: 18px;
+    }
+    section#spotlight div.left div.name div.title h2.designation {
+        font-size: 13px;
+    }
+    section#about div.top h1 {
+        font-size: 25px;
+    }
+    section#about div.middle p{
+        font-size: 14px;
+    }
+    section#about div.middle p b {
+        font-size: 14px;
+    }
+    section#about div.certificates h1 {
+        font-size: 25px;
+    }
+    #skills {
+        padding: 10px 0 0px;
+    }
+    #skills div.top h1 {
+        font-size: 25px;
+    }
+    #skills section.wrapper div.item h2 {
+        margin: 15px 0 30px;
+        font-size: 21px;
+    }
+    #skills section.wrapper div.item p {
+        font-size: 14px;
+    }
+    #skills section.wrapper div.item ul {
+
+        justify-content: space-between;
+    }
+    #skills section.wrapper div.item ul li {
+
+        width: 30%;
+    }
+    #skills section.wrapper div.item ul li h3 {
+        font-size: 12px;
+    }
+    section#projects div.top h1 {
+        font-size: 25px;
+    }
+    section#projects div.details h2 {
+
+        margin: 0 0 20px;
+    }
+    section#projects div.details p {
+        margin-bottom: 15px;    
+    }
+    section#projects div.link div.button_container a.button {
+        padding: 10px 18px;
+    }
+    section#projects div.link div.button_container a.button {
+        font-size: 12px;
+    }
+    section#projects div.right {
+        padding-bottom: 30px;
+    }
+    section#contact div.top h2 {
+        font-size: 25px;
+    }
+
+}
+@media all and (max-width:360px){
+    header div.right ul li a {
+        font-size: 10px;
+    }
+    section#about div.certificates {
+        padding: 20px;
+    }
+    #skills section.wrapper div.item ul li {
+        width: 50%;
+    }
+    #skills section.wrapper div.item ul li img {
+        height: 76px;
+    }
+
+}
+
